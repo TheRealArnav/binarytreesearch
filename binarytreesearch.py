@@ -42,15 +42,15 @@ class Tree():
 tree = Tree(0)
 root = None
 
-root = tree.insert(tree,30)
+root = tree.insert(root,30)
 tree.insert(root,15)
 tree.insert(root,32)
 tree.insert(root,29)
 tree.insert(root,70)
-tree.insert(root,32)
+tree.insert(root,31)
 
-tree.PreOrderTraversal
+tree.PreOrderTraversal(root)
 print("Inorder")
-tree.InOrderTraversal
+#tree.InOrderTraversal(root)
 print("PostOrder")
-tree.PostOrderTraversal
+tree.PostOrderTraversal(root)
